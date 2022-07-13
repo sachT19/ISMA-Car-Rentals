@@ -1,0 +1,1421 @@
+<!--Compilation of all files-->
+
+<!--index.html-->
+<!--123237, Quarter 1 project, index.html, Sep 29, 2021, Sources: Pixabay, W3Schools, StackOverflow, Chevrolet, Tesla, Lamborghini, Toyota websites, rocoderes.com-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="ismaCarRentals.css">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+    <title>ISMA Car Rentals</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!--logo by nav bar-->
+    <a href = "index.html">
+    <img src = "favicon.png" alt="logo" class="logo" style = "padding-top: 5px"></a>
+    <p class="name" style = "padding-top: 5px;"><a href="index.html" style = "color: white;">ISMA Car Rentals</a></p>
+    <br>
+    <ul>
+    <div class="topnav" style = "padding-top: 5px"><!--nav bar-->
+        <li class="index-icon"><a class="active" href="index.html" style = "color: white">Home</a></li>
+        <li class="location-icon"><a href="location.html" style = "color: white">Location</a></li>
+        <li class="tire-icon"><a href="carsForm.html" style = "color: white">Cars</a></li>
+        <li class="contact-icon"><a href="contact.html" style = "color: white">Contact Us</a></li>
+    </div>
+    </ul>
+    
+    <!--heading with company name-->
+    <div class="heading"><br><br>
+        <h1 style = "color: white">Welcome to ISMA Rentlux</h1>
+        <p class = "tagline">Travel how it should be: hassle-free</p><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+    <br><br>
+
+    <!--link to culture page-->
+    <div class="subheading"><br>
+        <h2>Places for Wanderlusts</h2>
+        <a href = "wanderlust.html">
+        <input type = "button" class = "buttons" value = "See more" style = "border: white"></a>
+    </div>
+    <div class="subheading2"><br>
+        <h2>Places for History Fans</h2>
+        <a href = "history.html"><input type = "button" class = "buttons" value = "See more" style = "border: white"></a>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h2 style = "text-align: center; font-size: 30px;">Our Partners</h2>
+    <img class="ford" src="ford.png">
+    <img class="mercedes" src="mercedes.png">
+    <img class="porsche" src="porsche.png">
+    <img class="acura" src="acura.png">
+    <img class="acura" src="tesl.png">
+    
+</body>
+</html>
+
+<!--wanderlust.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="ismaCarRentals.css">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+    <title>ISMA Car Rentals</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!--logo by nav bar-->
+    <a href = "index.html">
+    <img src = "favicon.png" alt="logo" class="logo" style = "padding-top: 5px"></a>
+    <p class="name" style = "padding-top: 5px;"><a href="index.html" style = "color: white;">ISMA Car Rentals</a></p>
+    <br>
+    <ul>
+    <div class="topnav" style = "padding-top: 5px"><!--nav bar-->
+        <li class="index-icon"><a href="index.html" style = "color: white">Home</a></li>
+        <li class="location-icon"><a href="location.html" style = "color: white">Location</a></li>
+        <li class="tire-icon"><a href="carsForm.html" style = "color: white">Cars</a></li>
+        <li class="contact-icon"><a href="contact.html" style = "color: white">Contact Us</a></li>
+    </div>
+    </ul>
+    <br><br>
+    <div class="travelLeft" style = "background-image: url(rome.jpg)"><br>
+        <h3>Rome</h3>
+        <a href = "https://travel.usnews.com/Rome_Italy/">
+        <input type = "button" class = "buttons" value = "See more" style = "border: white;"></a>
+    </div>
+    <div class = "travelLeft" style = "background-image: url(barcelona.jpg)"><br>
+        <h3>Barcelona</h3>
+        <a href = "https://travel.usnews.com/Barcelona_Spain/">
+        <input type = "button" class = "buttons" value = "See more" style = "border: white;">
+        </a>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class = "travelLeft" style = "background-image: url(madrid.jpg) "><br>
+        <h3>Madrid</h3>
+        <a href = "https://travel.usnews.com/Madrid_Spain/">
+        <input type = "button" class = "buttons" value = "See more" style = "border: white;">
+        </a>
+    </div>
+    <div class = "travelLeft" style = "background-image: url(chile.jpg) "><br>
+        <h3>Chile</h3>
+        <a href = "https://www.chile.travel/en/">
+        <input type = "button" class = "buttons" value = "See more" style = "border: white;">
+        </a>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class = "travelLeft" style = "background-image: url(borabora.jpg) "><br>
+        <h3>Bora Bora</h3>
+        <a href = "https://www.borabora.com/">
+        <input type = "button" class = "buttons" value = "See more" style = "border: white;">
+        </a>
+    </div>
+    <div class = "travelLeft" style = "background-image: url(tokyo.jpg) "><br>
+        <h3>Tokyo</h3>
+        <a href = "https://www.gotokyo.org/en/index.html">
+        <input type = "button" class = "buttons" value = "See more" style = "border: white;">
+        </a>
+    </div>
+</body>
+</html>
+    
+<!--history.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="ismaCarRentals.css">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+    <title>ISMA Car Rentals</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!--logo by nav bar-->
+    <a href = "index.html">
+    <img src = "favicon.png" alt="logo" class="logo" style = "padding-top: 5px"></a>
+    <p class="name" style = "padding-top: 5px;"><a href="index.html" style = "color: white;">ISMA Car Rentals</a></p>
+    <br>
+    <ul>
+    <div class="topnav" style = "padding-top: 5px"><!--nav bar-->
+        <li class="index-icon"><a href="index.html" style = "color: white">Home</a></li>
+        <li class="location-icon"><a href="location.html" style = "color: white">Location</a></li>
+        <li class="tire-icon"><a href="carsForm.html" style = "color: white">Cars</a></li>
+        <li class="contact-icon"><a href="contact.html" style = "color: white">Contact Us</a></li>
+    </div>
+    </ul>
+    <br><br>
+    <div class="travelLeft" style = "background-image: url(mp.jpg)"><br>
+        <h3>Machu Picchu</h3>
+        <a href = "https://www.peru.travel/en/attractions/machu-picchu">
+        <input type = "button" class = "buttons" value = "See more" style = "border: white;"></a>
+    </div>
+    <div class="travelLeft" style = "background-image: url(giza.jpg)"><br>
+        <h3>Pyramids of Giza</h3>
+        <a href = "https://www.earthtrekkers.com/how-to-visit-pyramids-of-giza-egypt/">
+        <input type = "button" class = "buttons" value = "See more" style = "border: white;"></a>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="travelLeft" style = "background-image: url(chairs.jpg)"><br>
+        <h3>The Great Wall of China</h3>
+        <a href = "https://www.chinahighlights.com/greatwall/how-to-visit.htm">
+        <input type = "button" class = "buttons" value = "See more" style = "border: white;"></a>
+    </div>
+    <div class="travelLeft" style = "background-image: url(athens.jpg)"><br>
+        <h3>Athens</h3>
+        <a href = "https://travel.usnews.com/Athens_Greece/">
+        <input type = "button" class = "buttons" value = "See more" style = "border: white;"></a>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="travelLeft" style = "background-image: url(stonehenge.jpg)"><br>
+        <h3>Stonehenge</h3>
+        <a href = "https://www.english-heritage.org.uk/visit/places/stonehenge/plan-your-visit/">
+        <input type = "button" class = "buttons" value = "See more" style = "border: white;"></a>
+    </div>
+    <div class="travelLeft" style = "background-image: url(turkey.jpg)"><br>
+        <h3>Turkey</h3>
+        <a href = "https://www.english-heritage.org.uk/visit/places/stonehenge/plan-your-visit/">
+        <input type = "button" class = "buttons" value = "See more" style = "border: white;"></a>
+    </div>
+    </body>
+</html>
+
+<!--carsForm.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="ismaCarRentals.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        //j query not working to animate the car image when clicked by the user
+        //$(document).ready(function(){
+           // $(".tooltip").click(function(){
+           //     $(".tooltip").animate({left: '300px'});
+           // });
+       // });
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+    <title>ISMA Car Rentals</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    
+    <!--logo by nav bar-->
+    <a href = "index.html">
+    <img src = "favicon.png" alt="logo" class="logo" style = "padding-top: 5px"></a>
+    <p class="name" style = "padding-top: 5px;"><a href="index.html" style = "color: white;">ISMA Car Rentals</a></p>
+    <br>
+    <ul>
+    <div class="topnav" style = "padding-top: 5px"><!--nav bar-->
+        <li class="index-icon"><a href="index.html" style = "color: white">Home</a></li>
+        <li class="location-icon"><a href="location.html" style = "color: white">Location</a></li>
+        <li class="tire-icon"><a class="active" href="carsForm.html" style = "color: white">Cars</a></li>
+        <li class="contact-icon"><a href="contact.html" style = "color: white">Contact Us</a></li>
+    </div>
+    </ul>
+    <!--cars images and descriptions-->
+    <button onclick="luxuryCars()" style="margin-left: 20px;" class="buttons">Look at Luxury Cars!</button><br><br>
+    <!--luxury cars button-->
+    <div id="luxury">
+        <div class = "tooltip"><input type = "image" class = "carImages" src = "luxuryCar1.PNG" style = "width: 300px; height: 300px; margin-left: 50px" value = "49.99" id = "Chevrolet 2022 Corvette" onclick = "chooseLuxuryCar(this.value); LuxuryCarModel(this.id);"><span class = "tooltiptext">
+            <table style = text-align: center;>
+                <tr>
+                    <th>Chevrolet 2022 Corvette</th>
+                    <th>Rental Price</th>
+                    <th>Top Speed</th>
+                    <th>Horsepower</th>
+                    <th>Engine</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$49.99</td>
+                    <td>194 MPH</td>
+                    <td>490 to 495 hp</td>
+                    <td>6.2 L V8</td>
+                </tr>
+            </table>
+        </span></div>
+    
+    <br><br>
+        <div class = "tooltip"><input type = "image" class = "carImages" src = "luxuryCar2.PNG" style = "width: 300px; height: 300px; margin-left: 50px" value = "49.99" id = "2021 Tesla Model" onclick = "chooseLuxuryCar(this.value); LuxuryCarModel(this.id); "><span class = "tooltiptext">
+            <table style = text-align: center;>
+                <tr>
+                    <th>2021 Tesla Model S</th>
+                    <th>Rental Price</th>
+                    <th>Top Speed</th>
+                    <th>Horsepower</th>
+                    <th>Range</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$49.99</td>
+                    <td>200 MPH</td>
+                    <td>670 to 1,020 hp</td>
+                    <td>387 to 520 mi battery-only</td>
+                </tr>
+            </table>
+        </span></div>
+    
+    <br><br>
+        <div class = "tooltip"><input type = "image" class = "carImages" src = "luxuryCar3.jpg" style = "width: 300px; height: 300px; margin-left: 50px" value = "49.99" id = "Devel Sixteen" onclick = "chooseLuxuryCar(this.value); LuxuryCarModel(this.id)"><span class = "tooltiptext">
+            <table style = text-align: center;>
+                <tr>
+                    <th>Devel Sixteen</th>
+                    <th>Rental Price</th>
+                    <th>Top Speed</th>
+                    <th>Horsepower</th>
+                    <th>Engine</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$49.99</td>
+                    <td>300 MPH</td>
+                    <td>5000 hp</td>
+                    <td>V16</td>
+                </tr>
+            </table>
+        </span></div>
+    <br><br>
+    <div class = "tooltip"><input type = "image" class = "carImages" src = "luxuryCar4.png" style = "width: 300px; height: 300px; margin-left: 50px" value = "49.99" id = "Lamborghini Aventador" onclick = "chooseLuxuryCar(this.value); LuxuryCarModel(this.id)"><span class = "tooltiptext">
+            <table style = text-align: center;>
+                <tr>
+                    <th>Lamborghini Aventador</th>
+                    <th>Rental Price</th>
+                    <th>Top Speed</th>
+                    <th>Horsepower</th>
+                    <th>Engine</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$49.99</td>
+                    <td>220 MPH</td>
+                    <td>729 hp</td>
+                    <td>V12</td>
+                </tr>
+            </table>
+        </span></div>
+    <br><br>
+    <div class = "tooltip">
+        <input type = "image" src = "luxuryCar5.jpg" class = "carImages" style = "width: 300px; height: 300px; margin-left: 50px" value = "49.99" id = "2006 Lightning McQueen" onclick = "chooseLuxuryCar(this.value); LuxuryCarModel(this.id)"><span class = "tooltiptext">
+            <table style = text-align: center;>
+                <tr>
+                    <th>2006 Lightning McQueen</th>
+                    <th>Rental Price</th>
+                    <th>Top Speed</th>
+                    <th>Horsepower</th>
+                    <th>Engine</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$49.99</td>
+                    <td>200 MPH</td>
+                    <td>750 hp</td>
+                    <td>V8</td>
+                </tr>
+            </table>
+        </span></div>
+    </div>
+    <button onclick="economyCars()" style="margin-left: 20px;" class="buttons">Look at Economy Cars!</button><br><br>
+    <!--economy cars button-->
+    <div id = "economy">
+        <div class = "tooltip"><input type = "image" class = "carImages" src = "economyCar1.PNG" style = "width: 300px; height: 300px; margin-left: 50px" value = "29.99" id = "2020 Toyota Yaris" onclick = "chooseEconomyCar(this.value); economyCarModel(this.id)"><span class = "tooltiptext">
+            <table style = text-align: center;>
+                <tr>
+                    <th>2020 Toyota Yaris</th>
+                    <th>Rental Price</th>
+                    <th>Top Speed</th>
+                    <th>Horsepower</th>
+                    <th>Engine</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$29.99</td>
+                    <td>115 MPH</td>
+                    <td>106 hp</td>
+                    <td>1.5 L V4</td>
+                </tr>
+            </table>
+        </span></div>
+        <br><br>
+        <div class = "tooltip"><input type = "image" class = "carImages" src = "economyCar2.PNG" style = "width: 300px; height: 300px; margin-left: 50px" value = "29.99" id = "2018 Gray Toyota Camry" onclick = "chooseEconomyCar(this.value) economyCarModel(this.id)"><span class = "tooltiptext">
+            <table style = text-align: center;>
+                <tr>
+                    <th>2018 Gray Toyota Camry</th>
+                    <th>Rental Price</th>
+                    <th>Top Speed</th>
+                    <th>Horsepower</th>
+                    <th>Engine</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$29.99</td>
+                    <td>129 MPH</td>
+                    <td>203 to 301 hp</td>
+                    <td>2.5 L V6</td>
+                </tr>
+            </table>
+        </span></div>
+        <div class = "tooltip"><input type = "image" class = "carImages" src = "economyCar3.JPG" style = "width: 300px; height: 300px; margin-left: 50px" value = "29.99" id = "2022 Toyota Corolla" onclick = "chooseEconomyCar(this.value); economyCarModel(this.id)"><span class = "tooltiptext">
+            <table style = text-align: center;>
+                <tr>
+                    <th>2022 Toyota Corolla</th>
+                    <th>Rental Price</th>
+                    <th>Top Speed</th>
+                    <th>Horsepower</th>
+                    <th>Engine</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$29.99</td>
+                    <td>143 MPH</td>
+                    <td>139 to 169 hp</td>
+                    <td>1.8 L V4</td>
+                </tr>
+            </table>
+        </span></div>
+        <br><br>
+        <div class = "tooltip"><input type = "image" class = "carImages" src = "economyCar4.PNG" style = "width: 300px; height: 300px; margin-left: 50px" value = "29.99" id = "2021 Toyota C-HR" onclick = "chooseEconomyCar(this.value); economyCarModel(this.id)"><span class = "tooltiptext">
+            <table style = text-align: center;>
+                <tr>
+                    <th>2021 Toyota C-HR</th>
+                    <th>Rental Price</th>
+                    <th>Top Speed</th>
+                    <th>Horsepower</th>
+                    <th>Engine</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$29.99</td>
+                    <td>112 MPH</td>
+                    <td>144 hp</td>
+                    <td>2.0 L V4</td>
+                </tr>
+            </table>
+        </span></div>
+        <br><br>
+        <div class = "tooltip"><input type = "image" class = "carImages" src = "economyCar5.PNG" style = "width: 300px; height: 300px; margin-left: 50px" value = "29.99" id = "2016 Acura ILX" onclick = "chooseEconomyCar(this.value); economyCarModel(this.id)"><span class = "tooltiptext">
+            <table style = text-align: center;>
+                <tr>
+                    <th>2016 Acura ILX</th>
+                    <th>Rental Price</th>
+                    <th>Top Speed</th>
+                    <th>Horsepower</th>
+                    <th>Engine</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$29.99</td>
+                    <td>138 MPH</td>
+                    <td>201 hp</td>
+                    <td>2.4 L V4</td>
+                </tr>
+            </table>
+        </span></div>
+        <br><br><br><br><br>
+    </div>
+    <!--Form starts here-->
+    <form>
+        <fieldset style = "border-radius: 25px; border-width: thick">
+        <legend style = "font-size: 22px;"></legend>
+        <h3>Car Model and Price</h3>
+        <label for = "model">Car Model</label>
+        <p id = "model"></p>
+        <label for = "price">Please manually reconfirm the model of your car</label><br>
+        <input type = "text" id = "model" name = "model">
+        <br><br><br>
+        <label for = "price">Car Price</label>
+        <p id = "price"></p>
+        <label for = "price">Please manually reconfirm the price of your car</label><br>
+        <input type="checkbox" id="carPrice" name="vehicle1" value="49.99">
+        <label for="vehicle1"> $49.99</label><br>
+        <input type="checkbox" id="carPrice" name="vehicle2" value="29.99">
+        <label for="vehicle2"> $29.99</label><br>
+        <br><br>
+        <h3>Pick-Up Information</h3>
+        <label for = "location">Pick-Up Location</label>
+        <input type = "text" id = "text" name = "text" style = "border-radius: 25px" placeholder = "Chicago" required>
+        <br>
+        <br>
+        <label for = "date">Pick-Up Date</label>
+        <input type = "date" id = "date" name = "date" onchange = "calNumDays()" style = "border-radius: 25px" required><!--pick up date-->
+        <label for = "time">Pick-Up Time</label>
+        <input type = "time" id = "time" name = "time" style = "border-radius: 25px" required><!--pick up time-->
+        <br><br><br><br><br>
+        <h3>Drop-Off Information</h3>
+        <label for = "location">Drop-Off Location</label>
+        <input type = "text" id = "text" name = "text" style = "border-radius: 25px" placeholder = "Chicago" required><!--drop-off location-->
+        <br><br>
+        <label for = "date2">Drop-Off Date</label>
+        <input type = "date" id = "date2" name = "date" onchange = "calNumDays()" style = "border-radius: 25px" required><!--drop-off date-->
+        <label for = "time">Drop-Off Time</label>
+        <input type = "time" id = "time" name = "time" style = "border-radius: 25px" required><!--drop off time-->
+        <br><br><br><br><br>
+        <label for = "dates">Number of Days</label>
+        <input type="text" class="textbox" id="numOfDays" name="numdays"/>
+        <br><br>
+        <label for = "days">Please manually reconfirm the number of days</label>
+        <input type = "number" id = "numOfDay" name="quantity" min="1" max="100">
+        <br><br>
+        <!--reset and submit tags-->
+        <input type = "reset" value = "Reset" class="submit"><br><br>
+        <a href = "contact.html">
+        <input type = "button" class = "submit" value = "Continue"></a>
+        </fieldset>
+    </form>
+    <h2 style = "text-align: center; visibility: hidden">Thank you for your purchase. Here is what we got from you:</h2>
+    <div class="invoice-box" id = "invoice">
+    <table>
+        <tr class="heading">
+            <td><h2 style = "color: black">Payment Method</h2></td>
+
+            <td><h2 style = "color: black">Check #</h2></td>
+        </tr>
+
+        <tr class="details">
+            <td><h2>Check</h2></td>
+
+            <td><h2>1000</h2></td>
+        </tr>
+
+        <tr class="heading">
+            <td><h2 style = "color: black">Details</h2></td>
+
+            <td><h2 style = "color: black">Price</h2></td>
+        </tr>
+        
+        <tr class="item">
+            <td><h2>Days Renting</h2></td>
+
+            <td id = "daysRenting"><input type = "button" class = "buttons" value = "Click for the total number of days" onclick = "totalRentalCost()"></td>
+        </tr>
+
+        <tr class="item">
+            <td><h2>Flat Price</h2></td>
+
+            <td id = "flatPrice"><input type = "button" class = "buttons" value = "Click for the flat price" onclick = "totalRentalCost()"></td>
+        </tr>
+
+        
+
+        <tr class="item last">
+            <td><h2>Tax - 5%</h2></td>
+
+            <td id = "tax"><input type = "button" class = "buttons" value = "Click for the tax" onclick = "totalRentalCost()"></td>
+        </tr>
+
+        <tr class="total">
+            <td><h2>Total Price</h2></td>
+
+            <td id = "total"><input type = "button" class = "buttons" value = "Click for the your total price" onclick = "totalRentalCost()"></td>
+        </tr>
+    </table>
+    </div>
+</body>
+      <script src = "javascriptQuarter1.js"></script>
+</html>
+    
+<!--location.html-->
+<!--123237, page two of quarter project-->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="ismaCarRentals.css">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+    <script src = "javascriptQuarter1.js"></script>
+    <title>Location</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!--logo by nav bar-->
+    <a href = "index.html">
+    <img src = "favicon.png" alt="logo" class="logo" style = "padding-top: 5px"></a>
+    <p class="name" style = "padding-top: 5px;"><a href="index.html" style = "color: white;">ISMA Car Rentals</a></p>
+    <br>
+    <ul>
+    <div class="topnav" style = "padding-top: 5px"><!--nav bar-->
+        <li class="index-icon"><a href="index.html" style = "color: white">Home</a></li>
+        <li class="location-icon"><a class="active" href="location.html" style = "color: white">Location</a></li>
+        <li class="tire-icon"><a href="carsForm.html" style = "color: white">Cars</a></li>
+        <li class="contact-icon"><a href="contact.html" style = "color: white">Contact Us</a></li>
+    </div>
+    </ul>
+    
+    <div id="buttons">
+    <input type = "button" onclick="drawText()" value = "More Coming Soon!" class="buttons">
+    </div>
+    <div id="canvas">
+            <canvas id = "myCanvas" width = "600" height = "600"></canvas>
+    </div>
+    
+    <script>
+        var c = document.getElementById("myCanvas");
+        var context = c.getContext("2d");
+    </script>
+    
+    
+</body>
+</html>
+
+<!--contact.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="ismaCarRentals.css">
+    <script src = "javascriptQuarter1.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+    <title>ISMA Car Rentals</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<style>
+    body{
+    overflow: hidden;
+    animation: shakebody linear 6s url(car_body.png);
+    animation-duration: 3s;
+    }
+</style>
+<body>
+    <script>window.onload = choosePic;</script>
+    <!--logo by nav bar-->
+    <a href = "index.html">
+    <img src = "favicon.png" alt="logo" class="logo" style = "padding-top: 5px"></a>
+    <p class="name" style = "padding-top: 5px;"><a href="index.html" style = "color: white;">ISMA Car Rentals</a></p>
+    <br>
+    <ul>
+    <div class="topnav" style = "padding-top: 5px"><!--nav bar-->
+        <li class="index-icon"><a href="index.html" style = "color: white">Home</a></li>
+        <li class="location-icon"><a href="location.html" style = "color: white">Location</a></li>
+        <li class="tire-icon"><a href="carsForm.html" style = "color: white">Cars</a></li>
+        <li class="contact-icon"><a class="active" href="contact.html" style = "color: white">Contact Us</a></li>
+    </div>
+    </ul>
+    <form action="thankyou.html" method="get" id="frm1" style="color: black; text-align: center;">
+    <fieldset style="border-radius: 25px">
+    <legend style="font-size: 22px;"><b>Contact Us at Rentlux!</b></legend><br><br>
+        <label for="text">Name:</label><!--First entry-->
+        <input type="text" id="text" name="text" style="border-radius: 25px" required><!--Name-->
+        <br>
+        <br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" style="border-radius: 25px;" required>
+        <br>
+        <br>
+        <label for="text">Your Message:</label>
+        <br><br>
+        <textarea id="text" name="text" style="height: 100px; width:300px;" required></textarea>
+        <br>
+        <br><br>
+        <input type="reset" value="Reset" style="background-color:#ddd; color:black; text-align: center; border-radius: 25px; padding: 12px;">
+        <input type="submit" value="Submit" style="background-color:#ddd; color:black; text-align: center; border-radius: 25px; padding: 12px;">
+    </fieldset>
+    </form><br><br><br>
+    <!--car animation-->
+    <div class="container">  
+       <div class="car">  
+         <div class="wheel wheel1">  
+           <img src="car_wheel_left.png" alt="">  
+         </div>  
+         <div class="wheel wheel2">  
+           <img src="car_wheel_right.png" alt="">  
+         </div>    
+        </div>  
+    </div>
+    <button style = "background-color: white; padding: 5px; border-radius: 5px; margin-left: 5%; margin-top: 2%" onclick = "choosePic()">Click for more cars!</button>
+    <h3 style = "text-align: center;">Reload or click the button for more cars!</h3>
+    <p><img src="" width="160" height="160" id="myPicture" alt="carImages" style = "margin-left: 5%; margin-top: -2%;"></p>
+    </body>
+</html>
+   
+//javascriptQuarter1.js
+var carPrice = "";
+var carModel = "";
+function chooseLuxuryCar(clicked){
+    carPrice = clicked;
+    document.getElementById("price").innerHTML = carPrice;
+}
+function chooseEconomyCar(clicked){
+    carPrice = clicked;
+    document.getElementById("price").innerHTML = carPrice;
+}
+function LuxuryCarModel(clicked){
+    carModel = clicked;
+    document.getElementById("model").innerHTML = carModel;
+    
+}
+function economyCarModel(clicked){
+    carModel = clicked;
+    document.getElementById("model").innerHTML = carModel;
+    
+}
+function luxuryCars() {
+  var x = document.getElementById("luxury");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function economyCars() {
+  var x = document.getElementById("economy");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function drawText(){ //text
+    context.clearRect(0, 0, c.width, c.height);
+    context.beginPath();
+    var textInput = prompt("Are you excited to travel?", "Yes!");
+    context.font = "30px Courier";
+    context.fillText(textInput,250,300);
+}
+
+var cars = new Array ("luxuryCar1.png", "luxuryCar2.png", "luxuryCar3.jpg", "luxuryCar4.png", "luxuryCar5.jpg", "economyCar1.png", "economyCar2.png", "economyCar3.jpg", "economyCar4.png", "economyCar5.png");
+
+function choosePic() {
+     var randomNum = Math.floor(Math.random() * cars.length);
+     let i = 0;
+     while (i < 50){
+        document.getElementById("myPicture").src = cars[randomNum];
+        i++;
+     }
+}
+
+function totalDays(){
+    var dropOff = new Date(document.getElementById("date2").value); 
+    var pickUp = new Date(document.getElementById("date").value);
+    return parseInt((dropOff - pickUp) / (24 * 3600 * 1000));
+}
+
+function calNumDays(){
+        if(document.getElementById("date2")){
+            document.getElementById("numOfDays").value=totalDays();
+        } 
+}
+
+function totalRentalCost(){
+    var numOfDays = document.getElementById("numOfDay").value;
+    var carModelForRent = document.getElementById("model").value;
+    var carPriceForRent = document.getElementById("carPrice").value;
+    document.getElementById("flatPrice").innerHTML = "<h2> $" + (numOfDays * carPriceForRent).toFixed(2) + "</h2>";
+    document.getElementById("daysRenting").innerHTML = "<h2>" + numOfDays + "</h2>";
+    document.getElementById("tax").innerHTML = "<h2> $" + (0.05 * (numOfDays * carPriceForRent)).toFixed(2) + "</h2>";
+    document.getElementById("total").innerHTML = "<h2> $" + (1.05 * (numOfDays * carPriceForRent)).toFixed(2) + "</h2>";
+    
+}
+
+
+
+
+/*ismaCarRentals.css*/
+body{
+    font-family: 'Epilogue', sans-serif;
+    color: white;
+    background-color: #659DBD;
+}
+img.logo{
+    position: absolute;
+    margin-left: 8px;
+    top: 20px;
+    width: 3%;
+}
+p.name{
+    left: 77px;
+    top: 26px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+}
+.heading{
+    text-align: center;
+    background-image: url("https://cdn.pixabay.com/photo/2016/01/02/01/17/city-1117433_960_720.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 200px;
+}
+h1{
+    font-size: 60px;
+}
+p.tagline{
+    font-size: 25px;
+    color: white;
+}
+a:link{
+    text-decoration: none;
+}
+a.button:visited{
+    color: black;
+}
+a.button:link, a.button:visited {
+  background-color: plum;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.button:hover, a.button:active {
+  background-color: black;
+}
+.left{
+    color: black;
+    float: left;
+    text-align: center;
+    width: 65%;
+    position: absolute;
+}
+img.right{
+    width: 25%;
+    float: right;
+    margin: auto;
+    padding-right: 150px;
+}
+
+.caption{
+    position: absolute;
+    padding: 15px;
+    top: 978px;
+    right: 13%;
+    color: white;
+    background-color: #6B3A2C;
+    text-align:center;
+    font-weight:bold;
+    opacity:0.7;
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: #C9B1C6;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 33%;
+  text-align: center;
+  padding: 15px 0;
+  color: white;
+  font-size: 18px;
+}
+
+.icon-bar a:hover {
+  background-color: #6B3A2C;
+}
+
+.active {
+  background-color: #EEC7BB;
+}
+.image{
+    width: 200px;
+}
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #D0B49F;
+   color: black;
+   text-align: center;
+   padding: 15px;
+}
+.topnav {
+  overflow: hidden;
+  min-height:90px;
+  margin-left: 220px; 
+  margin-top: 3px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #D0B49F;
+  color: black;
+}
+
+.search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+      
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #ccc;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav{
+    font-size: 16px; 
+    border: none; 
+    outline: none; 
+    color: black; 
+    background-color: inherit; 
+    font-family: inherit; 
+    margin-top: -1.2px;
+}
+.search{
+  background-color: inherit;
+  font-family: inherit;
+  color: black;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.topnav li.index-icon:hover{
+    background-image: url("https://cdn.pixabay.com/photo/2014/04/03/00/38/house-308936_960_720.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.topnav li.index-icon > a:hover {
+    opacity: 0;
+}
+.topnav li.location-icon:hover{
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/10/04/47/label-2935363_960_720.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.topnav li.location-icon > a:hover {
+    opacity: 0;
+}
+.topnav .tire-icon:hover{
+    background-image: url("https://cdn.pixabay.com/photo/2016/01/12/12/57/tire-1135376_960_720.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.topnav .tire-icon > a:hover {
+    opacity: 0;
+}
+.topnav .invoice-icon:hover{
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/02/03/15/bill-1708867_960_720.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.topnav .invoice-icon > a:hover {
+    opacity: 0;
+}
+.topnav .contact-icon:hover{
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/30/18/14/chat-1873543__340.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.topnav .contact-icon > a:hover {
+    opacity: 0;
+}
+
+.center{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  float: center;
+  
+}
+img.fade{
+    margin-left: 200px;
+}
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  width: 100%;
+  
+  
+}
+
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  top: 0;
+  left: 20px;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+  
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+img.picture{
+    width: 20%;
+    margin-left: 30px;
+}
+.aboutme{
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin-left: 400px;
+    margin-top: -360px;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+.collapsible {
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    border-radius: 25px;
+}
+.active, .collapsible:hover {
+  background-color:#ddd;
+}
+
+.subheading{
+    width: 25%;
+    float: left;
+    margin-left: 50px;
+    padding: 50px;
+    padding-right: 200px;
+    border: 5px solid white;
+    border-radius: 20px;
+    background-image: url(wanderlust.jpg);
+
+}
+.subheading2{
+    width: 25%;
+    float: right;
+    margin-right: 50px;
+    padding: 50px;
+    padding-right: 200px;
+    border: 5px solid white;
+    border-radius: 20px;
+    background: url(history.jpg);
+}
+.buttons{
+    box-shadow: 2.5px 2.5px 2px white;
+    background-color: white;
+    order: none;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+h2{
+    color: white;
+}
+.ford{
+    width: 13%;
+    float: left;
+    margin-left: 160px;
+    padding: 50px;
+    padding-right: 100px;
+    background-size: cover;
+
+}
+.mercedes{
+    width: 13%;
+    float: left;
+    margin-top: 30px;
+    margin-left: -60px;
+}
+.porsche{
+    width: 13%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 170px;
+    width: 10%;
+}
+.acura{
+    width: 13%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 170px;
+    width: 16%;
+}
+.locationStyle{
+    margin-left: 50px;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.custom-map-control-button {
+  background-color: #fff;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  padding: 0 0.5em;
+  font: 400 18px Roboto, Arial, sans-serif;
+  overflow: hidden;
+  height: 40px;
+  cursor: pointer;
+}
+.custom-map-control-button:hover {
+  background: #ebebeb;
+}
+.submit{
+    margin-left: 45%;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 15px;
+    width: 100px;
+    height: 70px;
+}
+.invoice-box {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    color: #555;
+}
+    
+.invoice-box table {
+    width: 100%;
+    line-height: inherit;
+    text-align: left;
+}
+    
+.invoice-box table td {
+    padding: 5px;
+    vertical-align: top;
+}
+    
+.invoice-box table tr td:nth-child(2) {
+    text-align: right;
+}
+    
+.invoice-box table tr.top table td {
+    padding-bottom: 20px;
+}
+    
+.invoice-box table tr.top table td.title {
+    font-size: 45px;
+    line-height: 45px;
+    color: #333;
+}
+    
+.invoice-box table tr.information table td {
+    padding-bottom: 40px;
+}
+    
+.invoice-box table tr.heading td {
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+    
+.invoice-box table tr.details td {
+    padding-bottom: 20px;
+}
+    
+.invoice-box table tr.item td {
+    border-bottom: 1px solid #eee;
+}
+    
+.invoice-box table tr.item.last td {
+    border-bottom: none;
+}
+    
+.invoice-box table tr.total td:nth-child(2) {
+    border-top: 2px solid #eee;
+    font-weight: bold;
+}
+    
+@media only screen and (max-width: 600px) {
+    .invoice-box table tr.top table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    
+    .invoice-box table tr.information table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}
+    
+.invoice-box.rtl {
+    direction: rtl;
+    font-family: Tahoma, 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+}
+    
+.invoice-box.rtl table {
+    text-align: right;
+}
+    
+.invoice-box.rtl table tr td:nth-child(2) {
+    text-align: left;
+}
+h3{
+    text-align: left;
+}
+.travelLeft{
+    width: 25%;
+    float: left;
+    margin-left: 50px;
+    padding: 50px;
+    padding-right: 200px;
+    border: 5px solid white;
+    border-radius: 20px;
+} 
+.carImages{
+    width: 300px;
+    height: 300px;
+    transition: width 2s, height 2s, transform 2s;
+}
+.carImages:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 420px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+    margin-top: 100px;
+    margin-left: 200px;
+  /*top: -5px;
+  left: 105%;*/
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 5px solid #D3CDD7;
+  text-align: left;
+  padding: 8px;
+   
+}
+tr{
+     background-color: #BC9CB0
+}
+.car{
+    height: 100px;
+    width: 380px;
+    background-image: url(car_body.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 70%;
+    bottom:58vh;
+    animation: shake linear .3s infinite;
+}
+.wheel1 img{
+    width: 77px;
+    position: relative;
+    top:70px;
+    left:35px;
+    animation: wheelRotation linear .16s infinite;
+}
+
+
+.wheel2 img{
+    width: 77px;
+    position: relative;
+    top: -8px;
+    left: 257px;
+    animation: wheelRotation linear .16s infinite;
+
+}
+@keyframes wheelRotation
+{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes carMove
+{
+    100%{
+        transform: translateX(-500vw);
+    }
+}
+@keyframes shake
+{
+    0%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+}
+@keyframes shakebody
+{
+    0%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(-50px);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .car{
+        height: 50px;
+        width: 190px;
+        left: 180px;
+        position: absolute;
+    }
+    .wheel1 img{
+        width: 38.5px;
+        position: relative;
+        top:22px;
+        left:22px;
+    }.wheel2 img{
+        width: 39px;
+        position: relative;
+        top: -21px;
+        left: 115px;
+    }
+}
+
